@@ -21,7 +21,7 @@ namespace AccesoDatos
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             //1. crear la conexion
-            SqlConnection conexion = new SqlConnection(@"server=DESKTOP-GIBA0R2\SQLEXPRESS; database=TI2021; Integrated Security=true");
+            SqlConnection conexion = new SqlConnection(@"server=L-ELR-017\SQLEXPRESS; database=TI2021; integrated security = true");
             //2. Definir la operacion
             string sql = "insert into personas(cedula, apellidos, nombres, fechadenacimiento, peso)";
             sql+= "values(@cedula, @apellidos, @nombres, @fechadenacimiento, @peso)";
