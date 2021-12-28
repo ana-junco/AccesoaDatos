@@ -35,7 +35,7 @@ namespace AccesoDatos
             this.datoTiempo = new System.Windows.Forms.DateTimePicker();
             this.txtPeso = new System.Windows.Forms.TextBox();
             this.txtNombres = new System.Windows.Forms.TextBox();
-            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtApellidos = new System.Windows.Forms.TextBox();
             this.txtCedula = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -73,7 +73,7 @@ namespace AccesoDatos
             this.groupBox1.Controls.Add(this.datoTiempo);
             this.groupBox1.Controls.Add(this.txtPeso);
             this.groupBox1.Controls.Add(this.txtNombres);
-            this.groupBox1.Controls.Add(this.txtApellido);
+            this.groupBox1.Controls.Add(this.txtApellidos);
             this.groupBox1.Controls.Add(this.txtCedula);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -121,15 +121,15 @@ namespace AccesoDatos
             this.txtNombres.Size = new System.Drawing.Size(400, 22);
             this.txtNombres.TabIndex = 18;
             // 
-            // txtApellido
+            // txtApellidos
             // 
-            this.txtApellido.Location = new System.Drawing.Point(479, 135);
-            this.txtApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtApellido.MaxLength = 30;
-            this.txtApellido.Name = "txtApellido";
-            this.txtApellido.ReadOnly = true;
-            this.txtApellido.Size = new System.Drawing.Size(400, 22);
-            this.txtApellido.TabIndex = 17;
+            this.txtApellidos.Location = new System.Drawing.Point(479, 135);
+            this.txtApellidos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtApellidos.MaxLength = 30;
+            this.txtApellidos.Name = "txtApellidos";
+            this.txtApellidos.ReadOnly = true;
+            this.txtApellidos.Size = new System.Drawing.Size(400, 22);
+            this.txtApellidos.TabIndex = 17;
             // 
             // txtCedula
             // 
@@ -234,7 +234,7 @@ namespace AccesoDatos
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtPeso;
         private System.Windows.Forms.TextBox txtNombres;
-        private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.TextBox txtApellidos;
         private System.Windows.Forms.TextBox txtCedula;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;

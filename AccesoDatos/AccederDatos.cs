@@ -29,7 +29,7 @@ namespace AccesoDatos
             SqlCommand comando = new SqlCommand(sql, conexion);
             //3.1 configurar los parametros @cedula, @apellidos, @nombres, @fechadenacimiento, @peso
             comando.Parameters.Add(new SqlParameter("@cedula",this.txtCedula.Text));
-            comando.Parameters.Add(new SqlParameter("@apellidos", this.txtApellido.Text));
+            comando.Parameters.Add(new SqlParameter("@apellidos", this.txtApellidos.Text));
             comando.Parameters.Add(new SqlParameter("@nombres", this.txtNombres.Text));
             comando.Parameters.Add(new SqlParameter("@fechadenacimiento", this.txtFechaNaci.Text));
             comando.Parameters.Add(new SqlParameter("@peso", this.txtPeso.Text));

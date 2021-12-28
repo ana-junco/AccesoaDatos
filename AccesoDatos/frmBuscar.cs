@@ -62,7 +62,7 @@ namespace AccesoDatos
             {
                 this.txtCedula.Text = row["cedula"].ToString();
                 this.txtNombres.Text = row["nombres"].ToString();
-                this.txtApellido.Text = row["apellidos"].ToString();
+                this.txtApellidos.Text = row["apellidos"].ToString();
                 this.datoTiempo.Value = Convert.ToDateTime(row["fechadenacimiento"].ToString());
                 this.txtPeso.Text = row["peso"].ToString();
 
